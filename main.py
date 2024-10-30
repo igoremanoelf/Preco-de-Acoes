@@ -10,10 +10,9 @@ def carregar_dados(empresa):
     cotacoes_acao = cotacoes_acao[["Close"]]
     return cotacoes_acao
 
-# Carregar dados da ação
 dados = carregar_dados("ITUB4.SA")
 
-#streamlit - design
+#Streamlit 
 st.write("""
 # App Preço de Ações
 O gráfico abaixo representa a evolução do preço das ações do Itaú (ITUB4) ao longo dos anos.
